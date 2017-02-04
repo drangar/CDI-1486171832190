@@ -1,0 +1,14 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: CDI
+  host: CDI
+  disk_quota: 1024M
+  services:
+  - Internet of Things Foundation-iz
+  - dashDB-px
+  - AlchemyAPI-lq
+  - Natural Language Classifier-ij
+  - CDI-cloudantNoSQLDB
